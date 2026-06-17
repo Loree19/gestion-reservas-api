@@ -7,8 +7,8 @@ async function startServer() {
     try {
         await initDatabase();
         app.listen(PORT, () => {
-            console.log('🚀 Servidor corriendo en http://localhost:${PORT}');
-            console.log('📖 Documentación en http://localhost:${PORT}/api-docs');
+            console.log('🚀 Servidor corriendo en http://localhost:3000');
+            console.log('📖 Documentación en http://localhost:3000/api-docs');
         });
     } catch (error) {
         console.error('❌ Error al iniciar el servidor:', error);
