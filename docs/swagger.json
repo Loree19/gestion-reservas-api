@@ -1,0 +1,17 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API de Gestión de Reservas",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/usuarios": {
+      "get": {
+        "summary": "Obtener todos los usuarios",
+        "responses": {
+          "200": { "description": "Lista de usuarios" }
+        }
+      }
+    }
+  }
+}
